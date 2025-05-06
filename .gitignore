@@ -1,0 +1,33 @@
+# Env files (your API keys, connection strings, etc)
+.env
+.env.*.local
+
+node_modules/
+dist/
+
+# Build output
+/build
+/dist
+/.vite
+
+# Coverage reports
+/coverage
+
+# Caches
+.cache/
+/.parcel-cache/
+
+# Logs folder (if you write files there)
+/logs/
+
+# OS files (macOS)
+/.AppleDouble
+.LSOverride
+
+# IDE/editor
+.vscode/
+/.idea/
+/*.sw?
+
+# Yarn PnP (if you ever use it)
+.pnp.*
